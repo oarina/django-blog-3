@@ -10,9 +10,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='post',
-            name='updated_on',
-            field=models.DateTimeField(auto_now=True),
-        ),
+        migrations.AddField(model_name='post',name='updated_on',field=models.DateTimeField(auto_now=True),),
     ]
